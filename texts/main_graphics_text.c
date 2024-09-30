@@ -13,17 +13,17 @@ int main(void) {
     Initialize(&g_sContext);
 
     Graphics_setFont(&g_sContext, &g_sFontCm14);
-    Graphics_drawString(&g_sContext, (int8_t *)"1234567890abcdefghijklmnopqrstuvwx", -1, 0, 0, false);
+    Graphics_drawString(&g_sContext, (int8_t *)"Daniel J. Lomis", -1, 0, 0, false);
     unsigned char h = Graphics_getStringHeight(&g_sContext);
-    Graphics_drawString(&g_sContext, (int8_t *)"123456789012345678901234567890", -1, 0, 14, false);
+    Graphics_drawString(&g_sContext, (int8_t *)"09.20.2024", -1, 0, 14, false);
 
 
     Graphics_setFont(&g_sContext, &g_sFontCmss18b);
-    Graphics_drawString(&g_sContext, (int8_t *)"GO HOKIES", -1, 10, 70, false);
+    Graphics_drawString(&g_sContext, (int8_t *)"Reesie!!", -1, 10, 70, false);
 
     h = Graphics_getStringHeight(&g_sContext);
     Graphics_setFont(&g_sContext, &g_sFontCmss20b);
-    Graphics_drawString(&g_sContext, (int8_t *)"GO HOKIES", -1, 10, 90, true);
+    Graphics_drawString(&g_sContext, (int8_t *)"Da Reesie", -1, 10, 90, true);
 
     while (1) ;
 }

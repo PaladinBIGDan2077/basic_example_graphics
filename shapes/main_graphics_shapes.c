@@ -18,11 +18,11 @@ int main(void) {
     R.xMin = 0;
     R.xMax = 63;
     R.yMin = 0;
-    R.yMax = 127;
+    R.yMax = 69;
 
     Graphics_drawRectangle(&g_sContext, &R);
     Graphics_drawLine(&g_sContext, 0, 0, 127, 127);
-    Graphics_fillCircle(&g_sContext, 63, 63, 30);
+    Graphics_fillCircle(&g_sContext, 63, 90, 30);
 
 }
 

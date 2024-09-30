@@ -34,7 +34,7 @@ int main(void) {
         {
             for (i=0; i<128; i++)
             {
-                r = 25;
+                r = i*4;
                 g = i*2;
                 b = 256 - i*2;
                 Graphics_setForegroundColor(&g_sContext, colormix(r,g,b));
